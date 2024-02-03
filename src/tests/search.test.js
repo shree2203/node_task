@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('../index');
+const app = require('../../index');
 
 describe('Search endpoint', () => {
   it('should search products by name, description, or variant name', async () => {
